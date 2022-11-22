@@ -14,8 +14,8 @@ def Minmax(X, Y):
         return min, max
 i = 1
 while i <= 4:
-    X = int(input('Введите  число '))
-    Y = int(input('Введите  число '))
+    X = float(input('Введите  число '))
+    Y = float(input('Введите  число '))
     a, b = Minmax(X,Y)
     print('Min = ', a)
     print('Max = ', b)
