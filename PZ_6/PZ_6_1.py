@@ -3,12 +3,9 @@
 #использовать.
 import random
 import math
-try:
-    N = random.randint(10,20)
-    A = [random.randint(1,10) for i in range(N)]
-    K = random.randrange(1,N)
-except ValueError:
-    print('Ошибка')
+N = random.randint(10,20)
+A = [random.randint(1,10) for i in range(N)]
+K = random.randrange(1,N)
 print("N = ", N)
 print("K = ", K)
 print(A)

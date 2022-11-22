@@ -3,10 +3,7 @@
 #последнего элемента будет потеряно). Первый элемент полученного списка
 #положить равным 0.
 import random
-try:
-  N = random.randrange(1,20)
-except ValueError:
-  print('Ошибка')
+N = random.randrange(1,20)
 print("N = ", N)
 a = [i for i in range(N)]
 print("Массив:\n",a)

@@ -1,11 +1,8 @@
 #Дан список размера N. Найти количество его промежутков монотонности (то есть
 #участков, на которых его элементы возрастают или убывают).
 import random
-try:
-    N = random.randrange(2,31)
-    a = [random.randrange(1,11) for i in range(N)]
-except ValueError:
-    print('Ошибка')
+N = random.randrange(2,31)
+a = [random.randrange(1,11) for i in range(N)]
 print("N = ", N)
 print("Массив:")
 print(a)
