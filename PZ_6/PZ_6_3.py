@@ -5,6 +5,6 @@
 import random
 N = random.randrange(1,20)
 print("N = ", N)
-a = [i for i in range(N)]
+a = [i for i in range(1,N)]
 print("Массив:\n",a)
-print("Массив со сдвигом  на 1:\n", a[1:] + [0])
+print("Массив со сдвигом  на 1:\n",[0] + [1] + a[1:N-2])
